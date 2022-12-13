@@ -10,7 +10,7 @@
 }
 
 .container {
-    background-color: white;
+    background-color:white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,11 +19,11 @@
 }
 
 .login {
-    padding: 72px 100px;
+    padding: 80px 100px;
     display: flex;
     flex-direction: column;
-    background-color: white;
-    border-radius: 10px;
+    background-color: rgb(215, 236, 93);
+    border-radius: 20px;
     box-shadow: none;
 }
 
@@ -42,7 +42,7 @@
 input {
     border: 1px rgba(0, 30, 255, 0.378) solid;
     border-radius: 2px;
-    padding: 12px;
+    padding: 8px;
 }
 
 input:focus {
@@ -50,21 +50,21 @@ input:focus {
 }
 
 button {
-    padding: 12px;
+    padding: 8px;
     color: white;
-    font-weight: 400;
-    background-color: rgb(66, 66, 226);
+    font-weight: 50;
+    background-color: rgb(73, 33, 214);
     border: none;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 button:hover {
-    background-color: rgb(56, 56, 218);
+    background-color: rgb(88, 231, 52);
 }
 
 @media (min-width: 480px) {
     .container {
-        background-color: rgba(0, 0, 0, 0.05);
+        background-color: rgba(240, 238, 121, 0.05);
     }
     .login {
         box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);

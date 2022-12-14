@@ -18,8 +18,8 @@
     height: 100vh;
 }
 
-.login {
-    padding: 80px 100px;
+.register {
+    padding: 72px 100px;
     display: flex;
     flex-direction: column;
     background-color: rgb(215, 236, 93);
@@ -27,15 +27,15 @@
     box-shadow: none;
 }
 
-.login > * {
+.register > * {
     margin: 2px;
 }
 
-.login button {
+.register button {
     margin-top: 24px;
 }
 
-.login h1 {
+.register h1 {
     margin-bottom: 24px;
 }
 
@@ -62,11 +62,11 @@ button:hover {
     background-color: rgb(88, 231, 52);
 }
 
-@media (min-width: 480px) {
+@media (min-width: 560px) {
     .container {
         background-color: rgba(240, 238, 121, 0.05);
     }
-    .login {
+    .register {
         box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
     }
 }

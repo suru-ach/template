@@ -1,0 +1,154 @@
+
+/* h1 {
+    text-align: center;
+    margin-top: auto;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0;
+    background: gray;
+}
+
+.container {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.a {
+    display: flex;
+    overflow: auto;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* margin-left: 25px; 
+}
+*/
+/*
+.b,
+.c,
+.d {
+    background-image: url(black.jpg);
+
+    color: aliceblue;
+    /* float: left; */
+    /* border: 100px; 
+    margin: 0.8px;
+    padding-top: 60px;
+    padding-left: 79px;
+    padding-bottom: 60px;
+    padding-right: 79px;
+    /* flex: auto; 
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+
+    /* margin: 1px;
+ padding: 1px; 
+
+}
+
+a:hover {
+    background-color: aquamarine;
+    color: rgb(89, 0, 255);
+}
+
+/* .h1
+{
+    margin: 1px;
+    padding: 1PX;
+}
+p1,p2{
+    margin: 1px;
+    padding: 1px;
+} */ 
+.body
+{
+background-color: #292f33;
+}
+ul {
+    list-style-type: none;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .image-gallery > li {
+    flex-basis: 350px; /* width: 350px; */
+  }
+  
+  .image-gallery li img {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 5px;
+  }
+
+  .image-gallery::after {
+    content: "";
+    flex-basis: 350px;
+  }
+
+  .image-gallery > li {
+    /* ... */
+    position: relative;
+    cursor: pointer;
+  }
+
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(57, 57, 57, 0.502);
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    transition: all 0.1s 0.1s ease-in-out;
+    color: #fff;
+    border-radius: 5px;
+    /* center overlay text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* hover */
+  .image-gallery li:hover .overlay {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+
+  .image-gallery {
+    /* ... */
+    /* don't add a fixed height */
+    height: 100vh;
+  }
+  h1{
+    color: blue;
+    text-align: center;
+    margin-top: auto;
+  }
+  .a,b
+  { font-size: medium;
+    color: aqua;
+    text-align: center;
+    padding: 2px;
+    
+  }

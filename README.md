@@ -46,7 +46,7 @@ Make sure you have node installed
 
 $ node app
 
-frontend
+frontend</br>
 Navyashree - Gallery page</br>
 Shishir - Event post page</br>
 Amar - Login page</br>
@@ -56,5 +56,5 @@ Dileep - Event post page</br>
 Roshan - Register page</br>
 Anagha - Gallery page</br>
 
-backend
+backend</br>
 Srujan

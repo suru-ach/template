@@ -47,14 +47,14 @@ Make sure you have node installed
 $ node app
 
 frontend
-Navyashree - Gallery page
-Shishir - Event post pages
-Amar - Login page
-Gahana - Eventpage
-Gehena - Eventpage
-Dileep - Event post page
-Roshan - Register page
-Anagha - Gallery page
+Navyashree - Gallery page&nbsp;
+Shishir - Event post pages&nbsp;
+Amar - Login page&nbsp;
+Gahana - Eventpage&nbsp;
+Gehena - Eventpage&nbsp;
+Dileep - Event post page&nbsp;
+Roshan - Register page&nbsp;
+Anagha - Gallery page&nbsp;
 
 backend
 Srujan

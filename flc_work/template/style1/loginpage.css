@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+   
+}
+
+
+body{
+
+background-position: center;
+
+background-color: white;
+
+background: linear-gradient(120deg,#2980b9,#8e44ad);
+height:100vh;
+overflow: hidden;
+}
+#email{
+    
+    font-size: 15px;
+    height: 30px;
+    width:200px;
+    border-radius: 7px;
+  
+    border:none;
+    cursor: pointer;
+    background-color:rgb(253, 255, 255);
+   
+}
+#password{
+    
+    height: 30px;
+    width: 200px;
+    border-radius: 7px; 
+   
+    background-color: rgb(253, 255, 255);
+    cursor: pointer;
+   
+    border:none;
+    
+
+}
+
+#signin{
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid rgb(23, 21, 21);
+   
+    border-radius: 25px;
+   
+    background-color: #7edc82;
+   
+    height:40px;
+    width:200px;
+    cursor: pointer;
+  margin-bottom: 20px;
+
+}
+.total{
+    
+     border: 2px solid rgb(244, 196, 196);
+background-position: 192px 34px;
+height: 600px;
+width: 455px;
+margin:auto;
+text-align: center;
+background-position: center;
+margin-top: 80px;
+background-size: cover;
+border-radius: 15px;
+
+  background:#0000004f ; 
+margin-bottom: 50px;
+}
+
+.signin{
+    color:rgb(10, 9, 9);
+  font-size: 25px;
+   
+    text-align: center;
+    margin:0%;
+
+}
+.container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+   
+}
+#signin:hover{
+   
+    border:2px;
+  
+    transition: 0.5s;
+    
+    width:205px;
+    height:2em ;
+    
+}
+#signin:active{
+    /*  box-shadow: 0 5px #666; */
+    transform: translateY(7px );
+   
+    transition: 0.1s;
+     background-color:#419249; 
+}
+#username{
+    font-size: 15px;
+    height: 28px;
+    width:200px;
+    border-radius: 7px;
+   
+    border:none;
+    cursor: pointer;
+    background-color:rgb(253, 255, 255);
+   
+
+}
+.username{
+    font-size: 24px;
+    color: rgb(246, 248, 249);
+    margin-right: 70px;
+}
+.login h1{
+    padding: 0 0 40px 0;
+    border-bottom: 1px solid silver;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    font-size: 40px;
+    margin-bottom: 29px;
+    padding-top: 6px;
+    /* text-decoration: underline; */
+    
+}
+.email{
+    font-size: 24px;
+    color: rgb(246, 248, 249);
+    margin-right: 110px;
+
+}
+.password{
+    font-size: 24px;
+    color:rgb(246, 248, 249);
+    margin-right: 78px;
+    
+}
+.login{
+    color: antiquewhite;
+    /* margin-top: 10px; */
+    margin-bottom: -30px;
+}
+.margin-bottom{
+    margin-bottom: 5px;
+}
+
+::placeholder{
+    text-align: center;
+    margin-right: 45px;
+    font-size: 13px;
+    color:rgb(115, 112, 112);
+    opacity: 1;
+    
+}
+.abc{
+    margin-bottom:30px;
+    display:inline-block;
+   
+}
+.club{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration:underline;
+margin-right: 2px;
+
+}
+
+
+
+  
+@media (min-width: 480px) {
+    .container {
+        background-color: rgba(0, 0, 0, 0.05);
+    }
+    /* .login {
+        box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    } */
+}
